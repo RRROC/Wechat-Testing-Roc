@@ -6,9 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27b3732d-e6aa-4076-a06a-60d30def2286" name="Default Changelist" comment="wechat testing Roc">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="27b3732d-e6aa-4076-a06a-60d30def2286" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/roc/service/WechatService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+            <state relative-caret-position="206">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -210,15 +208,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555509699705</updated>
-      <workItem from="1555509706014" duration="14414000" />
+      <workItem from="1555509706014" duration="14715000" />
     </task>
+    <task id="LOCAL-00001" summary="wechat testing Roc">
+      <created>1555580204680</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555580204681</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14414000" />
+    <option name="totallyTimeSpent" value="14715000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
+    <frame x="-6" y="-6" width="1293" height="693" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" />
@@ -231,7 +237,7 @@
       <window_info id="Structure" order="1" sideWeight="0.5012987" side_tool="true" weight="0.2497979" />
       <window_info anchor="bottom" id="Application Servers" weight="0.32854578" />
       <window_info anchor="bottom" id="Terminal" weight="0.32854578" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.50084037" side_tool="true" weight="0.33752245" />
+      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.50084037" side_tool="true" visible="true" weight="0.3374778" />
       <window_info anchor="bottom" id="Messages" weight="0.3285968" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -307,8 +313,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/roc/service/WechatService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
+        <state relative-caret-position="206">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
