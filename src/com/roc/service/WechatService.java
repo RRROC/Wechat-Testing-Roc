@@ -62,4 +62,27 @@ public class WechatService {
         }
         return map;
     }
+
+    public static String getResponse(Map<String, String> requestMap) {
+        String msgType = requestMap.get("MsgType");
+        switch (msgType) {
+            case "text":
+                break;
+            case "image":
+                break;
+            case "voice":
+                break;
+            case "video":
+                break;
+            case "shortvideo":
+                break;
+            case "location":
+                break;
+            case "link":
+                break;
+            default:
+                break;
+        }
+        return null;
+    }
 }

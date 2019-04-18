@@ -16,17 +16,20 @@ import java.util.Map;
 
 public class WechatServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        /*ServletInputStream is  = request.getInputStream();
-        byte[] b = new byte[1024];
-        int len;
-        StringBuilder sb = new StringBuilder();
-        while((len = is.read(b)) != -1) {
-            sb.append(new String(b ,0, len));
-        }
-        System.out.println(sb.toString());*/
-        request.setCharacterEncoding("UTF-8");
+        //乱码问题
+        request.setCharacterEncoding("utf8");
+        response.setCharacterEncoding("utf8");
+        //处理消息事件推送
         Map<String, String> requestMap = WechatService.parseRequest(request.getInputStream());
         System.out.println(requestMap);
+
+        //准备回复数据包
+        String respXml = WechatService.getResponse(requestMap);
+        System.out.println(respXml);
+        PrintWriter out = response.getWriter();
+        out.print(respXml);
+        out.flush();
+        out.close();
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
